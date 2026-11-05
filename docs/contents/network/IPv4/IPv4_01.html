@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<ahtml lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>als's knowledge-Wiki</title>
+    </head>
+    <body>
+        <h1>IPアドレス01</h1>
+        <h2>IPアドレスとは</h2>
+        <p>ネットワーク上の位置を表す番号である。移動すると変わる特徴をもち管理者が番号を設計しDHCPやSLAACなどで配布される。32bitのIPv4と128bitのIPv6がある。</p>
+        
+        <h2>CIDR</h2>
+        <p>
+        | CIDR | ホスト部のbit数 | 利用可能なホスト数 | 典型用途 |<br />
+        | /24 | 8 | 254 | 一般LANセグメント |<br />
+        | /25 | 7 | 126 | 小規模 |<br />
+        | /26 | 6 | 62 | 小規模 |<br />
+        | /30 | 2 | 2 | ルータ間リンク | <br />
+        | /31 | 1 | 2 | 点対点(RFC3021) |<br />
+        | /32 | 0 | 1 | 単一のホスト指定・ループバック |<br />
+        *実際の運用ではサブネットを小さめに区切ってVLAN数で調整する方が運用しやすい。
+        </p>
+
+    </body>
+</html>
+
